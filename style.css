@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+#main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgb(201, 157, 248);
+}
+#panel{
+    overflow: hidden;
+    height: 80%;
+    width: 80%;
+    border-radius: 10px;
+    background-color: white;
+}
+#ptop{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    padding: 0px 30%;
+    height: 100px;
+    width: 100%;
+    background-color: rgb(172, 31, 232);
+}
+.elem{ 
+    width: 30%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.elem h2{
+    font-weight: 500;
+    font-size: 22px;
+}
+.box {
+color: rgb(120, 4, 158);
+font-weight: 700;
+font-size: 22px;
+padding: 9px;
+border-radius: 5px;
+background-color: white;
+}
+
+#pbtm{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    padding: 20px;
+    width: 100%;
+    height: calc(100%-100px);
+}
+.bubble{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    height: 50px;
+    width: 50px;
+    background-color: rgb(164, 21, 193);
+    border-radius: 50%;
+    color: white;
+    font-weight: 500;
+}
+.bubble:hover{
+    cursor: pointer;
+    background-color: rgb(107, 7, 127);
+}
